@@ -24,6 +24,9 @@ public class Posicion {
     public void setCoordenadaCol(int coordenadaCol) {
         this.coordenadaCol = coordenadaCol;
     }
-
+    // creada para que sea más fácil comparar 2 posiciones
+    public int[] getCoordenadas(){
+        return new int[]{getCoordenadaFila(), getCoordenadaCol()};
+    }
 
 }
